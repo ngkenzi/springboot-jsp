@@ -1,0 +1,8 @@
+package hk.com.nexify.dao.test;
+
+import hk.com.nexify.dao.cmn.GenericBaseDao;
+import hk.com.nexify.entity.test.Book;
+
+public interface BookDao extends GenericBaseDao<Book, Long> {
+    
+}
